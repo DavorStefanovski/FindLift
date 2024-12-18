@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CarPoolingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/blue_green</item>
+        <item name="colorPrimaryVariant">@color/blue_green_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Font -->
+        <item name="fontFamily">@font/nunito_regular</item>
+
+        <!-- Rounded shapes -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Rounded</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Rounded</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Rounded</item>
+
+        <!-- Remove action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Rounded shape -->
+    <style name="ShapeAppearance.Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+    <style name="Theme.CarPoolingApp" parent="Base.Theme.CarPoolingApp" />
+</resources>
